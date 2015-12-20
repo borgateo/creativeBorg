@@ -1,8 +1,8 @@
 {
-     "name": "My-Harp-App",
-     "version": "1.0.0",
-     "description": "A Harp App on Heroku",
-     "dependencies": {
-       "harp": "*"
-     }
-   }
+  "name": "CreativeBorg",
+  "version": "0.0.2",
+  "description": "CretiveBorg LTD website",
+  "dependencies": {
+    "harp": "*"
+  }
+}

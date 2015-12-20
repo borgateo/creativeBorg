@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+  background: #ececec;
+}
+body {
+  max-width: 520px;
+  width: 100%;
+  margin: 0 auto;
+}
+footer {
+  top: 100vh;
+  text-align: center;
+  font-size: 0.75em;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin: 0.5em 0 0 0;
+  padding: 0;
+  color: rgba(225, 55, 56, 0.9);
+}
+.navbar {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0 0.67em 0;
+  text-align: center;
+}
+.navbar li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+.navbar li a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #737373;
+}
+header {
+  margin: 4em 0;
+  padding: 1em 0 0;
+  background-color: rgba(255, 255, 255, 0.35);
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  border-radius: .2em;
+}
+header:hover {
+  background-color: #FFF;
+}
+.logo {
+  background: url('/images/logo.png') top left no-repeat;
+  width: 261px;
+  height: 255px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'Dosis', sans-serif;
+  margin: 0 auto;
+  padding-top: .4em;
+  text-align: center;
+  color: #F79520;
+  font-size: 4.5em;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  text-shadow: 0 3px 0 #000000;
+  line-height: 1;
+}
+h2 {
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.9em;
+  font-weight: 100;
+  line-height: 1.2;
+  padding-bottom: 0.5em;
+}
+footer {
+  max-width: 800px;
+  width: 100%;
+  opacity: 0.45;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: .75;
+}

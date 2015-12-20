@@ -1,6 +1,17 @@
 doctype
-html
+html(lang="en")
   head
-    link(rel="stylesheet" href="/main.css")
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    meta(name="description", content="A polyglot company based in London. CreativeBorg offers complete Web design, UI and UX services.")
+    meta(name="viewport", content="width=device-width")
+    title CreativeBorg LTD
+  
+    link(rel="stylesheet" href="/stylesheets/main.css")
+    link(rel="stylesheet" href="/stylesheets/site.css")
+    link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis|Roboto+Slab:100")
+  
   body
     != yield
+
+  script(src="/javascript/main.js")
